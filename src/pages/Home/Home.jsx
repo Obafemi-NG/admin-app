@@ -1,5 +1,7 @@
+// imported Components created in this project folder.
 import { Sidebar, Navbar, Widget, Featured, Chart } from "../../components";
 
+// imported CSS style.
 import styles from "./Home.module.css";
 
 const Home = () => {

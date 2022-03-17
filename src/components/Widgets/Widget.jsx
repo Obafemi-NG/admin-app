@@ -1,5 +1,7 @@
+// imported CSS style.
 import styles from "./Widget.module.css";
 
+// imported Material UI...
 import ArrowDropUpOutlinedIcon from "@mui/icons-material/ArrowDropUpOutlined";
 import PermIdentityOutlinedIcon from "@mui/icons-material/PermIdentityOutlined";
 import ProductionQuantityLimitsOutlinedIcon from "@mui/icons-material/ProductionQuantityLimitsOutlined";
@@ -9,8 +11,10 @@ import AccountBalanceWalletOutlinedIcon from "@mui/icons-material/AccountBalance
 const Widget = ({ type }) => {
   let data = {};
 
+  // These values are based on assumptions until we will be fetching real data.
   let amount = 100;
   let diff = 20;
+  // ...end of assumptions
   switch (type) {
     case "user":
       data = {

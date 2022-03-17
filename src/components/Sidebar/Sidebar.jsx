@@ -1,4 +1,7 @@
+// imported CSS styles
 import styles from "./Sidebar.module.css";
+
+// imported Material UI
 import DashboardOutlinedIcon from "@mui/icons-material/DashboardOutlined";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import Inventory2OutlinedIcon from "@mui/icons-material/Inventory2Outlined";

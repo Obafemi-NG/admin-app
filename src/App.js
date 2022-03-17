@@ -1,5 +1,7 @@
+// imported react-router-dom.
 import { Routes, Route } from "react-router-dom";
 
+// imported pages files created in this project file
 import { Login, Home, List, Single, New } from "./pages";
 
 const App = () => {
