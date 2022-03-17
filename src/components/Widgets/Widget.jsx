@@ -16,7 +16,7 @@ const Widget = ({ type }) => {
       data = {
         title: "USERS",
         isMoney: false,
-        link: "see all users",
+        link: "See All Users",
         icon: (
           <PermIdentityOutlinedIcon
             className={styles["widget-icon"]}
@@ -32,7 +32,7 @@ const Widget = ({ type }) => {
       data = {
         title: "ORDERS",
         isMoney: false,
-        link: "see all orders",
+        link: "See All Orders",
         icon: (
           <ProductionQuantityLimitsOutlinedIcon
             className={styles["widget-icon"]}
@@ -47,7 +47,7 @@ const Widget = ({ type }) => {
     case "earnings":
       data = {
         title: "EARNINGS",
-        isMoney: false,
+        isMoney: true,
         link: "See Net Earnings",
         icon: (
           <MonetizationOnOutlinedIcon
@@ -63,8 +63,8 @@ const Widget = ({ type }) => {
     case "balance":
       data = {
         title: "BALANCE",
-        isMoney: false,
-        link: "see details",
+        isMoney: true,
+        link: "See Details",
         icon: (
           <AccountBalanceWalletOutlinedIcon
             className={styles["widget-icon"]}
@@ -85,7 +85,10 @@ const Widget = ({ type }) => {
     <div className={styles.widget}>
       <div className={styles.left}>
         <span className={styles.title}> {data.title} </span>
-        <span className={styles.amount}> {amount} </span>
+        <span className={styles.amount}>
+          {" "}
+          {data.isMoney && "$"} {amount}{" "}
+        </span>
         <span className={styles.cta}> {data.link} </span>
       </div>
       <div className={styles.right}>

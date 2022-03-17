@@ -1,4 +1,4 @@
-import { Sidebar, Navbar, Widget } from "../../components";
+import { Sidebar, Navbar, Widget, Featured, Chart } from "../../components";
 
 import styles from "./Home.module.css";
 
@@ -14,6 +14,10 @@ const Home = () => {
           <Widget type="orders" />
           <Widget type="earnings" />
           <Widget type="balance" />
+        </div>
+        <div className={styles.charts}>
+          <Featured />
+          <Chart />
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
 const Sidebar = () => {
   return (
     <div className={styles.sidebar}>
-      <div className={styles["sidebar-top"]}>Hezcode</div>
+      <div className={styles["sidebar-top"]}>Jazi</div>
       {/* <hr /> */}
       <div className={styles["sidebar-body"]}>
         <ul>
