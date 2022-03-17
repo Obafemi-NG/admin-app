@@ -39,17 +39,17 @@ const Featured = () => {
           Previous transaction processing. Last payments may not be included{" "}
         </p>
         <div className={styles.items}>
-          <div className={styles.details}>
+          <div className={`${styles.details} ${styles.negative}`}>
             <p className={styles.title}>Target</p>
             <ArrowDropDownOutlinedIcon />
             <p className={styles.rate}> {`$${target}k`} </p>
           </div>
-          <div className={styles.details}>
+          <div className={`${styles.details} ${styles.positive}`}>
             <p className={styles.title}>Last Week</p>
-            <ArrowDropDownOutlinedIcon />
+            <ArrowDropUpOutlinedIcon />
             <p className={styles.rate}> {`$${lastWeek}k`} </p>
           </div>
-          <div className={styles.details}>
+          <div className={`${styles.details} ${styles.negative}`}>
             <p className={styles.title}>Last Month</p>
             <ArrowDropDownOutlinedIcon />
             <p className={styles.rate}> {`$${lastMonth}k`} </p>
