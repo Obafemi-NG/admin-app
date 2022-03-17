@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className={styles.item}>
             {" "}
             <ChatBubbleOutlineOutlinedIcon className={styles.icon} />
-            <div className={styles.badge}>1</div>
+            <div className={styles.badge}>5</div>
           </div>
           <div className={styles.item}>
             {" "}

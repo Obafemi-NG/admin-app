@@ -5,3 +5,9 @@
 .container {
   flex: 6;
 }
+
+.widgets {
+  display: flex;
+  gap: 15px;
+  margin: 15px;
+}

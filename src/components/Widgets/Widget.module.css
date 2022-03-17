@@ -1,0 +1,64 @@
+.widget {
+  display: flex;
+
+  flex: 1;
+  height: 150px;
+  padding: 10px;
+  border-radius: 10px;
+
+  justify-content: space-between;
+  box-shadow: 10px 9px 39px -15px rgba(153, 153, 153, 0.78);
+  -webkit-box-shadow: 10px 9px 39px -15px rgba(153, 153, 153, 0.78);
+  -moz-box-shadow: 10px 9px 39px -15px rgba(153, 153, 153, 0.78);
+}
+
+.title {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(145, 143, 143);
+  margin-top: 10px;
+}
+.amount {
+  font-size: 28px;
+}
+.cta {
+  font-size: 10px;
+  margin-top: 15px;
+  border-bottom: 1px dashed gray;
+  width: max-content;
+  cursor: pointer;
+}
+
+.right,
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.diff {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.diff p {
+  font-weight: bold;
+  color: green;
+}
+.arrow-icon {
+  color: green;
+}
+.widget-icon {
+  font-size: 26px;
+  border-radius: 3px;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.icon-container {
+  align-self: flex-end;
+  /* margin: 0; */
+  /* padding: 0; */
+}

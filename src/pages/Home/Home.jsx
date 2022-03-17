@@ -1,5 +1,4 @@
-import { Fragment } from "react";
-import { Sidebar, Navbar } from "../../components";
+import { Sidebar, Navbar, Widget } from "../../components";
 
 import styles from "./Home.module.css";
 
@@ -10,7 +9,12 @@ const Home = () => {
       <div className={styles.container}>
         {" "}
         <Navbar />
-        Body container
+        <div className={styles.widgets}>
+          <Widget type="user" />
+          <Widget type="orders" />
+          <Widget type="earnings" />
+          <Widget type="balance" />
+        </div>
       </div>
     </div>
   );
