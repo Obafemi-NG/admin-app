@@ -2,14 +2,7 @@
 import styles from "./Chart.module.css";
 
 // imported components from RECHARTS needed for the chart visualization
-import {
-  AreaChart,
-  Area,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-} from "recharts";
+import { AreaChart, Area, XAxis, CartesianGrid, Tooltip } from "recharts";
 
 const Chart = () => {
   const data = [
@@ -54,8 +47,7 @@ const Chart = () => {
           </linearGradient>
         </defs>
         <XAxis dataKey="name" />
-        <YAxis />
-        <CartesianGrid strokeDasharray="3 3" />
+        <CartesianGrid strokeDasharray="3 3" stroke="#ECECEC" />
         <Tooltip />
         <Area
           type="monotone"

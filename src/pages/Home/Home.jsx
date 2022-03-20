@@ -1,5 +1,6 @@
 // imported Components created in this project folder.
 import { Sidebar, Navbar, Widget, Featured, Chart } from "../../components";
+import Table from "../../components/Table/Table";
 
 // imported CSS style.
 import styles from "./Home.module.css";
@@ -20,6 +21,9 @@ const Home = () => {
         <div className={styles.charts}>
           <Featured />
           <Chart />
+        </div>
+        <div className={styles.table}>
+          <Table />
         </div>
       </div>
     </div>
