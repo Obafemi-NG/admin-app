@@ -6,3 +6,37 @@
   -webkit-box-shadow: 4px 7px 17px 1px rgba(212, 212, 212, 0.75);
   -moz-box-shadow: 4px 7px 17px 1px rgba(212, 212, 212, 0.75);
 }
+.title {
+  padding-bottom: 15px;
+  font-weight: 600;
+  color: darkgray;
+}
+.products {
+  display: flex;
+  align-items: center;
+}
+img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.Approved {
+  background-color: rgba(0, 128, 0, 0.103);
+  border-radius: 5px;
+  color: green;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Pending {
+  background-color: rgba(255, 255, 0, 0.103);
+  border-radius: 5px;
+  color: goldenrod;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
