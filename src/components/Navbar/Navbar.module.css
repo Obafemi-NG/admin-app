@@ -4,6 +4,7 @@
   height: 50px;
   border-bottom: 0.5px solid rgb(172, 168, 168);
   padding: 10px;
+  flex: 6;
 }
 .wrapper {
   display: flex;

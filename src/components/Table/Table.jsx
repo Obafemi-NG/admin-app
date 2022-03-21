@@ -68,15 +68,27 @@ const List = () => {
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell className={styles.tableCell}>Tracking ID </TableCell>
-              <TableCell className={styles.tableCell}>Product</TableCell>
-              <TableCell className={styles.tableCell}>Customer</TableCell>
-              <TableCell className={styles.tableCell}>Date</TableCell>
-              <TableCell className={styles.tableCell}>
+              <TableCell className={`${styles.tableCell} ${styles.heading} `}>
+                Tracking ID{" "}
+              </TableCell>
+              <TableCell className={`${styles.tableCell} ${styles.heading} `}>
+                Product
+              </TableCell>
+              <TableCell className={`${styles.tableCell} ${styles.heading} `}>
+                Customer
+              </TableCell>
+              <TableCell className={`${styles.tableCell} ${styles.heading} `}>
+                Date
+              </TableCell>
+              <TableCell className={`${styles.tableCell} ${styles.heading} `}>
                 Amount&nbsp;($)
               </TableCell>
-              <TableCell className={styles.tableCell}>Method</TableCell>
-              <TableCell className={styles.tableCell}>Status</TableCell>
+              <TableCell className={`${styles.tableCell} ${styles.heading} `}>
+                Method
+              </TableCell>
+              <TableCell className={`${styles.tableCell} ${styles.heading} `}>
+                Status
+              </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>

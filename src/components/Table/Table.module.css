@@ -11,6 +11,10 @@
   font-weight: 600;
   color: darkgray;
 }
+.heading {
+  font-weight: 600;
+  color: rgb(117, 117, 117);
+}
 .products {
   display: flex;
   align-items: center;

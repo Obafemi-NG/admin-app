@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <Sidebar />
+
       <div className={styles.container}>
         {" "}
         <Navbar />

@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+}
+/* .bars {
+  display: flex;
+} */
+.dataTable {
+  flex: 6;
+}
+.list-container {
+  flex: 6;
+}
